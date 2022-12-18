@@ -1,12 +1,15 @@
+// solve this once again
+// and add - between the even numbers 
 (    
     async () => {
     const Case = (value) => {
         let lis = []
         for (let i in value) {
-            if (i % 2 === 0) {
-                lis.push("-")
+            if (i%2==0){
+               lis.push(value[i]) 
+            }else{
+
             }
-            lis.push(value[i])
         }
         console.log(lis.splice(1, lis.length).join(""))
     }

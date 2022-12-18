@@ -1,0 +1,1 @@
+console.log("The Number of occurance of string is ",new Array(...(require('readline-sync').question("Enter the String").matchAll(require('readline-sync').question("Enter the Letter to match")))).length)

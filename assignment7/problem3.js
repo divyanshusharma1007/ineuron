@@ -1,0 +1,1 @@
+console.log(...require('readline-sync').question('Enter Two space sepated words').split(' ').reverse())

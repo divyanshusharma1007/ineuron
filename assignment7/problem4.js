@@ -1,0 +1,1 @@
+console.log(require('readline-sync').question("Enter the string ").replace('a','x'))
